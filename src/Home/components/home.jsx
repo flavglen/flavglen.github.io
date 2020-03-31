@@ -52,7 +52,7 @@ class Home extends Component {
 
   }
   render() {
-    return  <div className="w3-content w3-margin-top"> {/*style="max-width:1400px;"*/}
+    return  <div className="w3-content w3-margin-top-72"> {/*style="max-width:1400px;"*/}
       <div className="w3-row-padding">
          <LeftColumn profileData={this.state.profileData}/>
          <RightColumn/>

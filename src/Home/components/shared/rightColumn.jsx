@@ -8,10 +8,10 @@ class RightColumn extends Component {
     <div className="w3-container w3-card-2 w3-white w3-margin-bottom">
       <h2 className="w3-text-grey w3-padding-16 animated rotateIn"><i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
       <div className="w3-container">
-        <h5 className="w3-opacity animated zoomInLeft"><b>Senior Systems Engineer @ Infosys Ltd</b></h5>
+        <h5 className="w3-opacity animated zoomInLeft"><b>Technology Analyst @ Infosys Ltd</b></h5>
         <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - <span className="w3-tag w3-blue-grayw3-round">Current</span></h6>
-        <p>Working on Frontend Technologies Like HTML,CSS,Angular 7,Typescript.Apart from this i always spend my time in learning new technologies like VueJS,NodeJs etc</p>
-       
+        <p>Working as MEAN/ERN/UI stack developer </p>
+
       </div>
       <div className="w3-container">
         <h5 className="w3-opacity animated zoomInRight"><b>Software Engineer @ Bolas Intelli Solutions Pvt ltd</b></h5>
