@@ -12,10 +12,11 @@ function App() {
   return (
     
     <HashRouter basename='/'>
-    <Menu/>
+    {/* <Menu/> */}
     <Suspense fallback={<div>Loading...</div>}>
       <Switch>
         <Route exact path="/" component={Home}/>
+        <Route  path="/home" component={Home}/>
         <Route path="/portal" component={Portal}/>
       </Switch>
     </Suspense>
