@@ -13,7 +13,10 @@ console.log(userCtx);
         <div className="subheading mb-5">{userCtx.location} · {userCtx.mobile}·
           <a href={'mailto:'+userCtx.email}>{userCtx.email}</a>
         </div>
-        <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <p className="lead mb-5">
+          I'm an experienced software engineer who constantly seeks out innovative solutions to everyday problems. In my seven years in this industry, 
+          I've honed my analytical thinking and collaboration skills, and I love working with a team.!
+        </p>
         <div className="social-icons">
           <a href="#">
             <i className="fab fa-linkedin-in"></i>

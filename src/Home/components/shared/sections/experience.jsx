@@ -11,47 +11,57 @@ export  const Experience = () => {
 
       <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div className="resume-content">
-          <h3 className="mb-0">Senior Web Developer</h3>
-          <div className="subheading mb-3">Intelitec Solutions</div>
-          <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+          <h3 className="mb-0">Technology Analyst</h3>
+          <div className="subheading mb-3">Infosys Limited - Canada</div>
+
+          <div class="respone-wrapper"> 
+            <h6>
+                Key Qualifications & Responsibilities
+            </h6>
+
+            <div class="response">
+              <ul>
+                <li> Developed Complex web Applicatins by using latest UI framewroks </li>
+                <li> Standardized all output with a new, responsive, mobile-first approach and strategy.</li>
+                <li> Assessed UX and UI designs for technical feasibility.</li>
+                <li> Implemented new features and UI in an Agile environment in collaboration with clients and project team. </li>
+                <li> Maintain code quality with Unit testing and automation tools </li>
+                <li> Lead Team of 5 members </li>
+                <li> Conduct code reviews and ensure code quality is not compromised</li>
+              </ul>
+            </div> 
+          </div>
         </div>
         <div className="resume-date text-md-right">
-          <span className="text-primary">March 2013 - Present</span>
+          <span className="text-primary">January 2017 - Present</span>
         </div>
       </div>
 
       <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div className="resume-content">
-          <h3 className="mb-0">Web Developer</h3>
-          <div className="subheading mb-3">Intelitec Solutions</div>
-          <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+          <h3 className="mb-0">Software Engineer</h3>
+          <div className="subheading mb-3">Bolas Intelli Solutions - INDIA</div>
+          <div class="respone-wrapper"> 
+            <h6>
+                Key Qualifications & Responsibilities
+            </h6>
+
+            <div class="response">
+              <ul>
+                <li> Creating web and mobile applications  </li>
+                <li> Maintaining, optimizing, troubleshooting, and improving web applications </li>
+                <li> Assessed UX and UI designs for technical feasibility.</li>
+                <li> Developed standard and ad hoc reports in graph format as required.</li>
+                <li> Built an ecommerce webapp to sell products online. Increased company sales by 30%. </li>
+              </ul>
+            </div> 
+          </div>
         </div>
         <div className="resume-date text-md-right">
-          <span className="text-primary">December 2011 - March 2013</span>
+          <span className="text-primary">October 2014 - January 2017</span>
         </div>
       </div>
 
-      <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-        <div className="resume-content">
-          <h3 className="mb-0">Junior Web Designer</h3>
-          <div className="subheading mb-3">Shout! Media Productions</div>
-          <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-        </div>
-        <div className="resume-date text-md-right">
-          <span className="text-primary">July 2010 - December 2011</span>
-        </div>
-      </div>
-
-      <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-        <div className="resume-content">
-          <h3 className="mb-0">Web Design Intern</h3>
-          <div className="subheading mb-3">Shout! Media Productions</div>
-          <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-        </div>
-        <div className="resume-date text-md-right">
-          <span className="text-primary">September 2008 - June 2010</span>
-        </div>
-      </div>
 
     </div>
 
