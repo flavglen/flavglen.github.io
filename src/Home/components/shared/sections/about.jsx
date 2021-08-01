@@ -5,7 +5,7 @@ export  const About = () => {
   // const [count, setCount] = useState(0);
 
   const userCtx = useContext(UserContext);
-console.log(userCtx);
+
   return (
     <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div className="w-100">
@@ -18,17 +18,11 @@ console.log(userCtx);
           I've honed my analytical thinking and collaboration skills, and I love working with a team.!
         </p>
         <div className="social-icons">
-          <a href="#">
+          <a target="_blank" href="https://www.linkedin.com/in/flavglen">
             <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="#">
+          <a target="_blank" href="http://flavglen.github.io">
             <i className="fab fa-github"></i>
-          </a>
-          <a href="#">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i className="fab fa-facebook-f"></i>
           </a>
         </div>
       </div>
