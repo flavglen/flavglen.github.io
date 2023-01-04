@@ -32,22 +32,6 @@ class Home extends Component {
       console.log('Error getting documents', err);
     });
 
-
-
-    
-
-
-  // let setSf = docRef.set({designation: "",
-  // location: "ff",
-  // mobile: "ff",
-  // name: "f"});
-
-  // gg.then(doc => {
-  //      console.log('Document data:', doc);
-  //    })
-  //    .catch(err => {
-  //      console.log('Error getting document', err);
-  //    });
   docRef.onSnapshot( (doc)=> {
     const profile = doc.data();
     this.formatValue(profile);
@@ -55,17 +39,6 @@ class Home extends Component {
       profileData: profile
     });
   });
-  //   let getDoc = docRef.get()
-  // .then(doc => {
-  //   const profile = doc.data();
-  //   this.formatValue(profile);
-  //   this.setState({
-  //     profileData: profile
-  //   });
-  // })
-  // .catch(err => {
-  //   console.log('Error getting document', err);
-  // });
 
   }
 
@@ -80,13 +53,7 @@ class Home extends Component {
   render() {
     return <>
     <div class="container-fluid p-0">
-      {/* <div className="w3-row-padding">
-         <LeftColumn profileData={this.state.profileData}/>
-         <RightColumn/>
-       </div> */}
-
-          <LeftColumn profileData={this.state.profileData}/>
-
+        <LeftColumn profileData={this.state.profileData}/>
          <UserProvider value={this.state.profileData}>
             <About/>
             <Experience/>
