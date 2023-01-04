@@ -38,7 +38,7 @@ class LeftColumn extends Component {
         <a className="navbar-brand js-scroll-trigger">
           <span className="d-block d-lg-none">Glen Flavian Pais</span>
           <span className="d-none d-lg-block">
-            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={process.env.PUBLIC_URL + '/images/pp.jpg'} />
+            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={process.env.PUBLIC_URL + '/images/pp_new.jpg'} />
           </span>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -47,14 +47,8 @@ class Skills extends Component {
      
     return <React.Fragment> 
           <p className="w3-large"><b><i className="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-
              {skillset}
-          
-        
           </React.Fragment> 
-        
-
-    
   }
 }
 
