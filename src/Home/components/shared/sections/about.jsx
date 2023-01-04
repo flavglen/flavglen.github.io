@@ -3,13 +3,16 @@ import UserContext from '../../profileContext';
 export  const About = () => {
   // Declare a new state variable, which we'll call "count"
   // const [count, setCount] = useState(0);
+  //  
 
   const userCtx = useContext(UserContext);
 
   return (
     <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div className="w-100">
-        <h1 className="mb-0 animate__fadeInUp" dangerouslySetInnerHTML={{__html: userCtx.name}}></h1>
+        <code class="profile-name"> &lt;
+          <span className="mb-0 animate__fadeInUp"><code dangerouslySetInnerHTML={{__html: userCtx.name}}></code></span>
+         /&gt; </code>
         <div className="subheading mb-5">{userCtx.location} · {userCtx.mobile}·
           <a href={'mailto:'+userCtx.email}>{userCtx.email}</a>
         </div>

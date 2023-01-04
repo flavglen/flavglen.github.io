@@ -22,47 +22,21 @@ class LeftColumn extends Component {
   }
 
   clickNav(pathName){
-
     var target = $('#' + pathName);
     if (target.length) {
       $('html, body').animate({
           scrollTop: (target.offset().top)
         }, 1000);
         return false;
-      }
-    
-    console.log(target);
+      } 
   }
   
   
   render() {
-    // return  <div className="w3-third">
-    
-    //   <div className="w3-white w3-text-grey w3-card-2">
-    //     <div className="w3-card-2">
-    //     <img src={process.env.PUBLIC_URL + '/images/pp.jpg'} alt="Glen Pais" className="w3-border animated pulse profilePic"/> 
-    //       <div className="w3-container">
-    //         <h4><b>{this.props.profileData.name}</b></h4>
-    //         <p>{this.props.profileData.designation}</p>
-    //       </div>
-    //     </div>
-    //     <div className="w3-container"> 
-    //       <p><i className="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>{this.props.profileData.designation}</p>
-    //       <p><i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>{this.props.profileData.location} </p>
-    //       <p><i className="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>{this.props.profileData.email}</p>
-    //       <p><i className="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>{this.props.profileData.mobile}</p>
-          
-    //       <Skills/>
-
-    //     </div>
-    //   </div>
-
-    
-    // </div>
 
     return <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a className="navbar-brand js-scroll-trigger">
-          <span className="d-block d-lg-none">Clarence Taylor</span>
+          <span className="d-block d-lg-none">Glen Flavian Pais</span>
           <span className="d-none d-lg-block">
             <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={process.env.PUBLIC_URL + '/images/pp.jpg'} />
           </span>
@@ -71,7 +45,7 @@ class LeftColumn extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav text-left">
             <li className="nav-item">
               <a onClick={() => this.clickNav('about')} className="nav-link  js-scroll-trigger" href="#/home/about">About</a>
             </li>
