@@ -21,7 +21,7 @@ export  const Experience = () => {
 
             <div class="response">
               <ul>
-                <li> Developed Complex web Applicatins by using latest UI framewroks </li>
+                <li> Developed Complex web Applications by using latest UI frameworks </li>
                 <li> Standardized all output with a new, responsive, mobile-first approach and strategy.</li>
                 <li> Assessed UX and UI designs for technical feasibility.</li>
                 <li> Implemented new features and UI in an Agile environment in collaboration with clients and project team. </li>
@@ -52,7 +52,7 @@ export  const Experience = () => {
                 <li> Maintaining, optimizing, troubleshooting, and improving web applications </li>
                 <li> Assessed UX and UI designs for technical feasibility.</li>
                 <li> Developed standard and ad hoc reports in graph format as required.</li>
-                <li> Built an ecommerce webapp to sell products online. Increased company sales by 30%. </li>
+                <li> Built an E-commerce webapp to sell products online. Increased company sales by 30%. </li>
               </ul>
             </div> 
           </div>
