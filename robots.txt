@@ -1,5 +1,2 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /home
-Allow: /skills
-Allow: /projects
-Allow: /timeline
