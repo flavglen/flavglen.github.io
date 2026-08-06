@@ -1,2 +1,22 @@
-# https://www.robotstxt.org/robotstxt.html
+# Robots.txt for Glen F. Pais — Sr. Fullstack Developer
 User-agent: *
+Allow: /
+
+# Allow AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://flavglen.github.io/sitemap.xml
