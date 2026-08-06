@@ -1,0 +1,92 @@
+# Glen F. Pais — Sr. Fullstack Developer
+
+> Sr. Fullstack Developer with 12+ years engineering fast, scalable, and accessible enterprise products. Specializing in Microfrontends, Server-Driven UI, React, Next.js, and 100% AI-powered workflows with Cursor, GitHub Copilot, v0, and MCP Servers.
+
+## Overview
+
+Glen F. Pais is a Senior Fullstack Developer based in Canada (remote & on-site) with over 12 years of experience building enterprise web products. He runs a fully AI-powered development workflow using Cursor, GitHub Copilot, v0, and MCP Servers, and specializes in Microfrontends, Server-Driven UI, and web performance optimization (Lighthouse 99/100 scores). Open to new opportunities across Canada.
+
+## Key Details
+
+- **Role**: Sr. Fullstack Developer
+- **Location**: Canada (Remote & On-site)
+- **Experience**: 12+ years
+- **Current Employer**: Loblaws (2021 — Present)
+- **Education**: Master of Computer Applications, Mangalore University
+- **Status**: Open to new opportunities across Canada
+
+## Contact
+
+- **Website**: https://flavgleb.dev
+- **Email**: hello@flavglen.dev (placeholder — update with actual)
+- **GitHub**: http://github.com/flavglen
+- **LinkedIn**: https://www.linkedin.com/in/flavglen/
+
+## Tech Stack
+
+### Frontend
+- React (96%)
+- Tailwind CSS (96%)
+- Next.js (90%)
+- TypeScript (90%)
+- Angular (90%)
+- Vue.js (75%)
+
+### Backend & Cloud
+- Node.js (90%)
+- Firebase (90%)
+- Docker (80%)
+
+### AI Tooling
+Cursor AI, GitHub Copilot, v0.dev, MCP Servers, RAG Pipelines, OpenAI, DeepSeek
+
+## Experience Timeline
+
+1. **Loblaws** — Sr. Fullstack Developer (2021 — Present)
+   - Driving frontend platform strategy and Microfrontend architecture across teams.
+   - Championing AI-assisted development practices with Cursor, Copilot, and v0.
+   - Server-Driven UI and Lighthouse performance optimization (99/100 scores).
+
+2. **Infosys** — Technology Analyst (2017 — 2021)
+   - Built scalable enterprise web platforms for global clients.
+   - Led component library and design system adoption across squads.
+
+3. **Bolas Intelli Solutions Ltd** — Software Engineer (2014 — 2017)
+   - Delivered full-stack features across the product lifecycle.
+   - Established foundations in performant, accessible frontend engineering.
+
+## Projects
+
+### AI Resume Builder
+Generate tailored, ATS-friendly resumes with AI. Streaming output, editable sections, and instant export.
+- Tags: Next.js, React, TypeScript, DeepSeek
+
+### AI Expense Chat
+A conversational interface that answers natural-language questions about your personal expense data.
+- Tags: Next.js, RAG, OpenAI, Charts
+
+### AI Smart Expense Tracker
+Automated categorization with analytics dashboards, budgets, and monthly insight summaries.
+- Tags: Next.js, Firebase, Analytics
+
+## Writing & Tools
+
+### Recent Articles
+- How I Scored 99/100 on Lighthouse (Performance)
+- ES2026 Features Worth Knowing (JavaScript)
+- Why I Ditched Cursor & Copilot for Cline + DeepSeek (AI Workflow)
+
+### Free Developer Tools
+- Movie Finder
+- JSON to TypeScript
+- JSON Compare
+- QR Code Generator
+
+## Pages
+
+- Home: https://flavglen.github.io/
+- Contact: https://flavgleb.dev
+- About: https://flavglen.github.io/#about
+- Stack: https://flavglen.github.io/#stack
+- Projects: https://flavglen.github.io/#projects
+- Writing: https://flavglen.github.io/#writing
